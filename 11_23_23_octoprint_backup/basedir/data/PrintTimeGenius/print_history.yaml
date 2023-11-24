@@ -1,0 +1,72 @@
+print_history:
+- analysisFirstFilamentPrintTime: 0.5591689225329901
+  analysisLastFilamentPrintTime: 17065.222618701824
+  analysisPrintTime: 17065.222618701824
+  compensatedPrintTime: 20055.12716959208
+  firstFilamentPrintTime: 64.32483001702349
+  lastFilamentPrintTime: 20054.980515644012
+  payload:
+    name: 2-CE3E3V2_Wind_Sim_140mm-73.5mm_mount.gcode
+    origin: local
+    owner: Aya93
+    path: 2-CE3E3V2_Wind_Sim_140mm-73.5mm_mount.gcode
+    size: 32284607
+    time: 20060.900869857025
+  timestamp: 1700745283.2687767
+- analysisFirstFilamentPrintTime: 0.5591689225329901
+  analysisLastFilamentPrintTime: 17059.995147263682
+  analysisPrintTime: 17059.995147263682
+  compensatedPrintTime: 19872.392065660122
+  firstFilamentPrintTime: 299.10772205000103
+  lastFilamentPrintTime: 20304.672487443007
+  payload:
+    name: CE3E3V2_Wind_Sim_140mm-73.5mm_mount.gcode
+    origin: local
+    owner: Aya93
+    path: CE3E3V2_Wind_Sim_140mm-73.5mm_mount.gcode
+    size: 32260309
+    time: 20310.504413500996
+  timestamp: 1700723985.211779
+- analysisFirstFilamentPrintTime: 0.5496889966125309
+  analysisLastFilamentPrintTime: 26024.596982815397
+  analysisPrintTime: 26024.596982815397
+  compensatedPrintTime: 30207.114991147086
+  firstFilamentPrintTime: 30.80422900499252
+  lastFilamentPrintTime: 30587.610791775995
+  payload:
+    name: CE3E3V2_Wind_Sim_Fan_Intake_for_140mm_case_fan.gcode
+    origin: local
+    owner: Aya93
+    path: CE3E3V2_Wind_Sim_Fan_Intake_for_140mm_case_fan.gcode
+    size: 33902658
+    time: 30594.711337962
+  timestamp: 1700701431.4963105
+- analysisFirstFilamentPrintTime: 0.6137832215426897
+  analysisLastFilamentPrintTime: 27321.51584215092
+  analysisPrintTime: 27321.51584215092
+  compensatedPrintTime: 31752.665372746054
+  firstFilamentPrintTime: 89.61926216500433
+  lastFilamentPrintTime: 32247.45577087901
+  payload:
+    name: CE3E3V2_Wind_Sim_Fan_Intake_for_140mm_case_fan.gcode
+    origin: local
+    owner: Aya93
+    path: CE3E3V2_Wind_Sim_Fan_Intake_for_140mm_case_fan.gcode
+    size: 34665841
+    time: 32254.201333022007
+  timestamp: 1700651092.2081017
+- analysisFirstFilamentPrintTime: 1.030614291019674
+  analysisLastFilamentPrintTime: 2019.263099105095
+  analysisPrintTime: 2019.349847059242
+  compensatedPrintTime: 2439.415892463493
+  firstFilamentPrintTime: 30.067705520000004
+  lastFilamentPrintTime: 2493.1122274990003
+  payload:
+    name: CE3E3V2_nextion_stl-connector-top.gcode
+    origin: local
+    owner: Aya93
+    path: CE3E3V2_nextion_stl-connector-top.gcode
+    size: 1700153
+    time: 2500.134797947
+  timestamp: 1700445553.0088708
+version: 2.3.1

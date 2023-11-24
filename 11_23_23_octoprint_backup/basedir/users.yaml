@@ -1,0 +1,13 @@
+Aya93:
+  active: true
+  apikey: null
+  groups:
+  - admins
+  - users
+  password: $argon2id$v=19$m=65536,t=3,p=4$m3MuhZDSeo/RmhOCkFLKOQ$AntupJ+9V7lIb2yfw9AODExzGD2S5jIKaj+L1zcqOjs
+  permissions: []
+  roles:
+  - user
+  - admin
+  settings: {}
+_version: 2

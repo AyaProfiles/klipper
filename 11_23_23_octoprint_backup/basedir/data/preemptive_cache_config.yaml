@@ -1,0 +1,11 @@
+/:
+- _count: 442
+  _timestamp: 1700791234.096532
+  base_url: http://192.168.86.20/
+  path: /
+  query_string: l10n=en
+- _count: 138
+  _timestamp: 1700787733.0610833
+  base_url: https://127.0.0.1:5000/
+  path: /
+  query_string: l10n=en

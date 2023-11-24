@@ -1,0 +1,5 @@
+printer_config:
+- M92
+- M220
+- M221 T0
+version: 2.3.1

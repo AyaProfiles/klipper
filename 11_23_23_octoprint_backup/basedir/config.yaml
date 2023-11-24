@@ -1,0 +1,395 @@
+api:
+  key: 616121EB54734337A25012057A066EC4
+plugins:
+  BLTouch:
+    cmdProbeDown: BLTOUCH_DEBUG COMMAND=pin_down
+    cmdProbeUp: BLTOUCH_DEBUG COMMAND=pin_up
+    cmdReleaseAlarm: BLTOUCH_DEBUG COMMAND=reset
+    cmdRepeatability: PROBE_ACCURACY
+  PrintTimeGenius:
+    allowAnalysisWhilePrinting: true
+    compensationValues:
+      extruding: null
+  action_command_prompt:
+    enable: always
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1698671700
+      _important:
+        read_until: 1698310200
+      _octopi:
+        read_until: 1684929600
+      _plugins:
+        read_until: 1694995200
+      _releases:
+        read_until: 1696862700
+  bedlevelvisualizer:
+    _config_version: 1
+    command: "@BEDLEVELVISUALIZER\t; instruct plugin to start recording responses\
+      \ from printer.\nG28\n\nBED_MESH_CALIBRATE\nBED_MESH_OUTPUT\t\t; report the\
+      \ bed leveling mesh points.\nBED_MESH_PROFILE SAVE=Ender3BedMesh\nSAVE_CONFIG"
+    mesh_timestamp: 11/23/2023, 7:18:01 PM
+    show_webcam: true
+    stored_mesh:
+    - - -0.12
+      - -0.0786
+      - -0.0428
+      - -0.0125
+      - 0.0122
+      - 0.0314
+      - 0.045
+    - - -0.0617
+      - -0.0451
+      - -0.0309
+      - -0.0189
+      - -0.0092
+      - -0.0018
+      - 0.0033
+    - - -0.0167
+      - -0.0157
+      - -0.015
+      - -0.0147
+      - -0.0148
+      - -0.0151
+      - -0.0158
+    - - 0.015
+      - 0.0097
+      - 0.0047
+      - 0
+      - -0.0044
+      - -0.0086
+      - -0.0125
+    - - 0.0333
+      - 0.0311
+      - 0.0284
+      - 0.0253
+      - 0.0217
+      - 0.0177
+      - 0.0133
+    - - 0.0383
+      - 0.0484
+      - 0.056
+      - 0.0611
+      - 0.0638
+      - 0.064
+      - 0.0617
+    - - 0.03
+      - 0.0617
+      - 0.0875
+      - 0.1075
+      - 0.1217
+      - 0.13
+      - 0.1325
+    stored_mesh_x:
+    - -117
+    - -78
+    - -39
+    - 0
+    - 39
+    - 78
+    - 118
+    stored_mesh_y:
+    - -117
+    - -78
+    - -39
+    - 0
+    - 39
+    - 78
+    - 118
+    stored_mesh_z_height: 250
+    use_center_origin: true
+    use_relative_offsets: true
+  camerasettings:
+    load_preset_on_startup: true
+    multicam_mapping:
+    - camera: 'BRI-S90AF: BRI-S90AF'
+      multicam: Default
+    multicam_support: true
+    presets:
+    - camera: video0
+      controls:
+        backlight_compensation: '0'
+        brightness: '41'
+        contrast: '55'
+        exposure_absolute: '166'
+        exposure_auto: '3'
+        exposure_auto_priority: true
+        focus_absolute: '120'
+        focus_auto: true
+        gamma: '220'
+        hue: '0'
+        pan_absolute: '0'
+        power_line_frequency: '1'
+        saturation: '64'
+        sharpness: '80'
+        tilt_absolute: '0'
+        white_balance_temperature: '4600'
+        white_balance_temperature_auto: true
+        zoom_absolute: '0'
+      name: main
+    startup_preset_apply_count: '5'
+    startup_preset_name: main
+  classicwebcam:
+    _config_version: 1
+    snapshot: http://192.168.86.20/webcam/?action=snapshot
+    stream: http://192.168.86.20/webcam/?action=stream
+  cura:
+    cura_engine: null
+  dashboard:
+    ETAUse12HTime: true
+    _config_version: 2
+    _webcamArray:
+    - disableNonce: false
+      flipH: null
+      flipV: null
+      name: Default
+      rotate: null
+      streamRatio: '16:9'
+      url: http://192.168.86.20/webcam/?action=stream
+    - disableNonce: false
+      flipH: false
+      flipV: false
+      name: Endoscope
+      rotate: false
+      streamRatio: '16:9'
+      url: http://192.168.86.20/webcam2/?action=stream
+    bedTempMax: '110'
+    clearOn_Feedrate: '2'
+    clearOn_Filament: '2'
+    clearOn_LayerGraph: '1'
+    clearOn_PrintThumbnail: '2'
+    clearOn_PrinterMessage: '2'
+    commandWidgetArray:
+    - command: echo "47.6" | bc
+      enabled: false
+      icon: command-icon.png
+      interval: '60'
+      name: Simulated Chamber
+      type: 3/4
+    enableDashMultiCam: true
+    showFeedrate: true
+    showFilament: false
+    showFullscreen: false
+    showPrintThumbnail: false
+    showSystemInfo: true
+    showWebCam: true
+  discovery:
+    publicPort: 80
+    upnpUuid: 7f0df366-e02b-44a3-bd6e-a5596c46d343
+  errortracking:
+    unique_id: 0357cfa4-d525-46cf-bab9-8ea0e9afda1d
+  filamentmanager:
+    _config_version: 1
+    database:
+      clientID: f6603148-bae4-11ed-83d0-e45f0188aa81
+  gcodeviewer:
+    _config_version: 1
+  homeassistant:
+    _config_version: 2
+    node_id: 851d5efeeae847a596c195516d703d15
+    unique_id: 851d5efe-eae8-47a5-96c1-95516d703d15
+  klipper:
+    _config_version: 4
+    configuration:
+      confirm_reload: false
+  mqtt:
+    broker:
+      password: Aya93
+      url: homeassistant
+      username: AdminUser
+  multicam:
+    _config_version: 3
+    multicam_profiles:
+    - URL: http://192.168.86.20/webcam/?action=stream
+      flipH: false
+      flipV: false
+      isButtonEnabled: false
+      name: Default
+      rotate90: false
+      snapshot: http://192.168.86.20/webcam/?action=snapshot
+      streamRatio: '16:9'
+    - URL: http://192.168.86.20/webcam2/?action=stream
+      flipH: false
+      flipV: false
+      isButtonEnabled: true
+      name: EndoScope
+      rotate90: false
+      snapshot: http://192.168.86.20/webcam2/?action=snapshot
+      streamRatio: '16:9'
+  octoapp:
+    encryptionKey: 97b89436-7360-4c7d-814c-35e108003609
+  octoeverywhere:
+    AddPrinterUrl: https://octoeverywhere.com/getstarted?isFromOctoPrint=true&printerid=P2HGO4WP7OKC0OHVNBCIJMTQZ2N9XZN61N93SFH5NK5CHZ0HG3RKLMSZEHJ4
+    HasConnectedAccounts: true
+    HttpFrontendIsHttps: false
+    HttpFrontendPort: 80
+    NoAccountConnectedLastInformDateTime: 2023-03-04 16:46:10.699142
+    Pid: Ga2a5nhs8jyrt8uGjky3l5pM2SnzptChv0KIG5LNC9INoGTmWoDFIh77iBlnw9XPfDjGvKHHAGuhOPnI
+    PluginUpdateRequired: false
+    PluginVersion: 2.10.0
+    PrinterKey: P2HGO4WP7OKC0OHVNBCIJMTQZ2N9XZN61N93SFH5NK5CHZ0HG3RKLMSZEHJ4
+  octolapse:
+    _config_version: 3
+  softwareupdate:
+    _config_version: 9
+  themeify:
+    tabs:
+      enableIcons: true
+  tplinksmartplug:
+    _config_version: 16
+    arrSmartplugs:
+    - autoConnect: false
+      autoConnectDelay: 10
+      autoDisconnect: false
+      autoDisconnectDelay: 0
+      automaticShutdownEnabled: false
+      btnColor: '#808080'
+      countdownOffDelay: 1
+      countdownOnDelay: 1
+      currentState: 'on'
+      displayWarning: false
+      emeter:
+        get_realtime: {}
+      event_on_disconnect: false
+      event_on_error: false
+      event_on_shutdown: false
+      event_on_startup: false
+      event_on_upload: false
+      gcodeCmdOff: false
+      gcodeCmdOn: false
+      gcodeEnabled: true
+      gcodeOffDelay: 0
+      gcodeOnDelay: 0
+      gcodeRunCmdOff: ''
+      gcodeRunCmdOn: ''
+      icon: fas fa-lightbulb
+      ip: 192.168.86.28/3
+      label: LED
+      sysCmdOff: false
+      sysCmdOffDelay: 0
+      sysCmdOn: false
+      sysCmdOnDelay: 0
+      sysRunCmdOff: ''
+      sysRunCmdOn: ''
+      thermal_runaway: false
+      useCountdownRules: false
+      warnPrinting: false
+    - autoConnect: true
+      autoConnectDelay: 10
+      autoDisconnect: true
+      autoDisconnectDelay: 0
+      automaticShutdownEnabled: false
+      btnColor: '#808080'
+      countdownOffDelay: 1
+      countdownOnDelay: 1
+      currentState: 'on'
+      displayWarning: true
+      emeter:
+        get_realtime: {}
+      event_on_disconnect: false
+      event_on_error: false
+      event_on_shutdown: false
+      event_on_startup: false
+      event_on_upload: false
+      gcodeCmdOff: false
+      gcodeCmdOn: false
+      gcodeEnabled: false
+      gcodeOffDelay: 0
+      gcodeOnDelay: 0
+      gcodeRunCmdOff: ''
+      gcodeRunCmdOn: ''
+      icon: fas fa-chart-pie
+      ip: 192.168.86.28/2
+      label: Pi
+      sysCmdOff: false
+      sysCmdOffDelay: 0
+      sysCmdOn: false
+      sysCmdOnDelay: 0
+      sysRunCmdOff: ''
+      sysRunCmdOn: ''
+      thermal_runaway: false
+      useCountdownRules: false
+      warnPrinting: false
+    - autoConnect: true
+      autoConnectDelay: 10
+      autoDisconnect: true
+      autoDisconnectDelay: 0
+      automaticShutdownEnabled: false
+      btnColor: '#808080'
+      countdownOffDelay: 1
+      countdownOnDelay: 1
+      currentState: 'on'
+      displayWarning: true
+      emeter:
+        get_realtime: {}
+      event_on_disconnect: false
+      event_on_error: false
+      event_on_shutdown: false
+      event_on_startup: false
+      event_on_upload: false
+      gcodeCmdOff: false
+      gcodeCmdOn: false
+      gcodeEnabled: false
+      gcodeOffDelay: 0
+      gcodeOnDelay: 0
+      gcodeRunCmdOff: ''
+      gcodeRunCmdOn: ''
+      icon: fas fa-print
+      ip: 192.168.86.28/1
+      label: Printer
+      sysCmdOff: false
+      sysCmdOffDelay: 0
+      sysCmdOn: false
+      sysCmdOnDelay: 0
+      sysRunCmdOff: ''
+      sysRunCmdOn: ''
+      thermal_runaway: false
+      useCountdownRules: false
+      warnPrinting: false
+    debug_logging: true
+  tracking:
+    enabled: false
+    unique_id: 800b77e4-003d-459d-8ff5-209d37edfb88
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+serial:
+  abortHeatupOnCancel: false
+  additionalPorts:
+  - /tmp/printer
+  disconnectOnErrors: false
+  port: /tmp/printer
+  timeout:
+    communication: 1200.0
+    positionLogWait: 60.0
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+  pluginBlacklist:
+    enabled: true
+  secretKey: tDLV19VHBoqIpp2enFrrAaa0mjfr2Ffi
+  seenWizards:
+    backup: null
+    corewizard: 4
+    octoeverywhere: 10
+    tracking: null
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA
+webcam:
+  ffmpeg: /usr/bin/ffmpeg
