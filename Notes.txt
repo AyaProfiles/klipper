@@ -1,0 +1,41 @@
+TPLink:
+ -192.168.86.28/3 (LED)
+ -192.168.86.28/2 (Pi) 
+ -192.168.86.28/1 (Printer)
+ 
+Spools:
+	id	profile_id	name					cost		weight	used	temp_offset
+	3	2			Yellow - Hatchbox		20	1000	674		0
+	4	1			White - Duramic			20	1000	619.5	0
+	5	2			Blue - Hatchbox			20	1000	985.8	0
+	6	1			Black - Inland			20	1000	901.8	30
+	7	2			Black - Hatchbox		25	1000	886.6	0
+	8	4			Blue - Sunlu			20	1000	912.2	20
+	9	5			Grey - Creality			20	1000	585.2	0
+	10	2			Brown - Hatchbox		20	1000	886.3	0
+	12	2			White - Hatchbox		25	1000	657.4	0
+	13	7			Blue - Sunlu			20	1000	149.4	0
+	14	7			Black - Sunlu			20	1000	593.5	0
+	15	8			Black - Overture		20	1000	0		0
+	16	4			Transparent - Sunlu		20	1000	13		0
+	18	9			Black - Overture PETG	20	1000	645.2	0
+
+
+Camera:
+	Power Line - 50Hz
+	Backlight - 0
+	Auto Exposure - Aperture Priority (checked)
+	Exposure Time Absolute - 166
+	Focus Auto - Checked
+	Focus Absolute - 120
+	Zoom Absolute - 0
+	Tilt Absolute - 0
+	Pan Absolute - 0
+	Sharpness - 80
+	Brightness - 41
+	Contrast - 55
+	Saturation - 64
+	White Balance Auto (checked)
+	White Balance Temperature - 4600
+	Hue - 0
+	Gamma - 220
